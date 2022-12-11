@@ -407,7 +407,6 @@ div#preloader {
     display: block;
 }
 
-
 .logo img {
     width: 150px;
     height: 46px;
@@ -3885,14 +3884,15 @@ span.dolar {
     display: none;
 }
 
+/* 
 .about-area-2 .about-content {
     margin-right: 20px;
-}
+} */
 
-.about-area-2 .about-text {
+/* .about-area-2 .about-text {
     margin-left: 20px;
     margin-top: 30px;
-}
+} */
 
 .service-area-2 .all-service .col-md-4,
 .service-area-2 .all-service .col-sm-6 {

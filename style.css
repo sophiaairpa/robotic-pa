@@ -3475,13 +3475,10 @@ span.email-notes {
 
 .footer-3 {
     /* background: url(img/background/fg.jpg); */
-    background: url(img/background/robotic-banner.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(36, 53, 89, 1) 0%, rgba(0, 212, 255, 1) 100%);
     z-index: 1;
     position: relative;
-    overflow: hidden;
 }
 
 .footer-3::after {

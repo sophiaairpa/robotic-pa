@@ -274,7 +274,7 @@ div#preloader {
 }
 
 .area-padding {
-    padding: 110px 0px;
+    padding: 40px 0px;
 }
 
 .area-padding-2 {
@@ -408,8 +408,7 @@ div#preloader {
 }
 
 .logo img {
-    width: 150px;
-    height: 46px;
+    width: 210px;
     object-fit: contain;
 }
 
@@ -602,7 +601,9 @@ div#preloader {
     width: 100%;
     z-index: 999999;
     box-shadow: 0px 0px 3px #ddd, -2px -2px 3px #ddd;
-    background: #f9f9f9;
+    /* background: #f9f9f9; */
+    background: #243559;
+
 }
 
 .header-area.stick .logo a {
@@ -613,7 +614,8 @@ div#preloader {
 
 .header-area.stick .main-menu ul.navbar-nav li a {
     padding: 30px 15px;
-    color: #2a354e;
+    /* color: #2a354e; */
+    color: #fff;
 }
 
 .header-area.stick .main-menu ul.nav li ul.sub-menu li a {
@@ -2086,7 +2088,8 @@ div#preloader {
 
 .page-area {
     /* background: url(img/background/bread.jpg); */
-    background: url(img/background/robotic-banner.jpg);
+    /* background: url(img/background/robotic-banner.jpg); */
+    background: url(img/background/banner2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -3332,9 +3335,18 @@ span.email-notes {
     border-bottom: 1px solid #333;
 }
 
-.header-three .header-area-2 .main-menu ul.navbar-nav li a {
-    color: #2a354e;
+.sub-menu a {
+    color: #000 !important;
 }
+
+.sub-menu a:hover {
+    color: #1AA15F !important;
+}
+
+.header-three .header-area-2 .main-menu ul.navbar-nav li a {
+    color: #fff;
+}
+
 
 .header-three .header-area-2 .main-menu ul.navbar-nav li a:hover {
     color: #1AA15F;

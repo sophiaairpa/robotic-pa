@@ -96,7 +96,7 @@
 
 .circle-content h3 {
   font-size: 20px;
-  line-height: 1;
+  line-height: 30px;
   color: #ffffff;
   margin: 0;
   font-weight: 700;
@@ -215,9 +215,8 @@ element.style {
 /*---------------------Partners----------------- */
 
 .partner-f {
-  /* background-color: #d5ecf3; */
+  background-color: #d5ecf3;
   /* background-color: #c0f0ff; */
-  background-image: linear-gradient(180deg, #b32727, #1b1313);
   padding: 250px 0px;
 }
 

@@ -364,6 +364,23 @@
     width: 110px;
   }
 
+  /* -----first Page ------- */
+
+  .circle-wrapper {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 16px;
+  }
+  .circle {
+    font-size: 32px;
+  }
+
+  .circle-content h3 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+  }
+
   /* ----First page------ */
 
   .slide-title h3 {
@@ -789,6 +806,10 @@
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 36px;
+  }
+
+  .logo img {
+    margin-left: 10px;
   }
 
   .circle-wrapper {

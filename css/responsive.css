@@ -124,6 +124,7 @@
     max-width: 400px;
     margin-bottom: 0px;
   }
+
   .intro-content {
     margin-top: -70px;
   }
@@ -764,6 +765,53 @@
     line-height: 27px;
     /* font-weight: bold; */
     color: #fff;
+  }
+
+  .fp-content h2 {
+    font-size: 26px;
+    margin-top: 36px;
+    margin-bottom: 20px;
+  }
+
+  .fp-content h3 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .fp-content h4 {
+    font-size: 16px;
+    line-height: 25px;
+    /* font-weight: 300; */
+  }
+
+  .fp-content p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 36px;
+  }
+
+  .circle-wrapper {
+    width: 130px;
+    height: 130px;
+    border: 4px solid #1aa15f;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .circle {
+    font-size: 30px;
+  }
+
+  .circle-content h3 {
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 700;
   }
 
   /* ------Partner------ */

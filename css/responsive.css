@@ -105,7 +105,7 @@
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
   .logo a {
-    padding: 17px 0;
+    padding: 24px 0;
   }
   .header-right-link {
     width: 120px;
@@ -449,7 +449,7 @@
     left: 0;
     padding: 0;
     position: absolute;
-    top: 4px;
+    top: 10px;
     z-index: 999999;
     max-width: 130px;
   }
@@ -739,23 +739,21 @@
   .roadmap-circle-content {
     font-size: 16px;
     line-height: 22px;
-    margin-top: 8px;
-    margin-bottom: 26px;
+    margin-bottom: 20px;
   }
 
-  .roadmap-wrapper {
+  /* .roadmap-wrapper {
     flex-direction: column;
-  }
+  } */
 
   .discovery-banner-content h1 {
     font-size: 16px;
     line-height: 20px;
-    margin-top: 20px;
     margin-bottom: 0px;
   }
 
   .discovery-banner-content p {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 14px;
     margin-top: 9px;
   }
@@ -851,6 +849,28 @@
     margin: 36px 0;
     color: #000;
   }
+
+  /* -----People------ */
+
+  .people-banner-content h3 {
+    font-size: 19px;
+    padding-right: 16px;
+    line-height: 22px;
+  }
+
+  .people-banner-content p {
+    font-size: 12px;
+    padding-right: 16px;
+    line-height: 16px;
+  }
+  .list-title {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  .discovery-content ul li {
+    line-height: 30px;
+  }
 }
 
 /* Large Mobile :480px. */
@@ -884,7 +904,7 @@
   .discovery-banner-content p {
     font-size: 13px;
     line-height: 16px;
-    margin-top: 0px;
+    margin-top: 12px;
   }
 
   .discovery-content {
@@ -911,4 +931,6 @@
     font-size: 18px;
     margin-top: 20px;
   }
+
+  /* ------People------ */
 }

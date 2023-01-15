@@ -41,7 +41,7 @@
 .fp-content h2 {
   font-size: 45px;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 30px;
   margin-bottom: 35px;
   color: #000;
 }
@@ -119,7 +119,7 @@ marquee img {
 
 .roadmap {
   background-color: #fae6e5;
-  padding: 50px 70px;
+  padding: 50px 0;
 }
 
 .roadmap-title {
@@ -142,7 +142,6 @@ marquee img {
   font-weight: 300;
   color: #000;
   line-height: 30px;
-  margin-top: 20px;
 }
 
 .roadmap-circle-content div {
@@ -155,8 +154,10 @@ marquee img {
 
 .roadmap-phase {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+  max-width: 250px;
 }
 
 .roadmap-svg {
@@ -204,8 +205,9 @@ element.style {
 
 .roadmap-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  /* align-items: center; */
+  gap: 20px;
 }
 
 .roadmap-phase-wrapper {
@@ -216,8 +218,7 @@ element.style {
 
 .partner-f {
   background-color: #d5ecf3;
-  /* background-color: #c0f0ff; */
-  padding: 250px 0px;
+  padding: 90px 0px;
 }
 
 .partner-f img {
@@ -227,6 +228,7 @@ element.style {
 
 .partner-f p {
   font-size: 25px;
+  line-height: 1.3;
   font-weight: 300;
   margin: 36px 0;
   color: #000;
@@ -322,8 +324,9 @@ element.style {
 
 .discovery-banner-content {
   position: absolute;
-  top: 30%;
-  /* left: 10%; */
+  top: 50%;
+  transform: translateY(-50%);
+  padding-right: 24px;
 }
 
 .discovery-banner-content h1,
@@ -346,6 +349,11 @@ element.style {
   font-weight: 400;
 }
 
+.discovery-p-color {
+  color: #1aa15f !important;
+  font-weight: 700;
+}
+
 .discovery-content {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -361,9 +369,15 @@ element.style {
   line-height: 36px;
   color: #000;
 }
+
+.list-title {
+  font-size: 28px;
+}
+
 .list- {
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 18px;
 }
 
 .discovery-content ul li {
@@ -384,11 +398,9 @@ element.style {
 }
 
 .people-banner-content {
-  max-width: 800px;
-  width: 100%;
   position: absolute;
-  top: 40%;
-  left: 13%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .people-banner-content h3 {

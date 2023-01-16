@@ -1,3 +1,13 @@
+/* -------Footer----- */
+
+.footer-btm {
+  text-align: center;
+}
+
+.copyright p {
+  color: #ddd !important;
+}
+
 .carousel-control i {
   position: absolute;
   top: 50%;
@@ -62,7 +72,7 @@
   font-weight: 300;
   color: #000;
   line-height: 38px;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 .circle-content {
@@ -102,8 +112,15 @@
   font-weight: 700;
 }
 
+.client-logo-img {
+  padding-top: 32px;
+  background-color: #fcfcfc;
+}
+
 marquee img {
-  width: 300px;
+  align-items: center;
+  max-width: 300px;
+  width: 100%;
   margin: 0 30px;
 }
 
@@ -416,4 +433,36 @@ element.style {
   font-weight: 400;
   font-size: 20px;
   line-height: 158.18%;
+  padding-right: 16px;
+}
+
+/* ------Career----- */
+
+.career {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.career h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.career p {
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: 300;
+  color: #000;
+}
+
+.career-img img {
+  max-width: 130px;
+  width: 100%;
+}
+
+.career-img {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

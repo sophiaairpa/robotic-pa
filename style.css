@@ -1772,7 +1772,7 @@ div#preloader {
 
 .footer-area-bottom {
   padding: 25px 0;
-  background: #f2f2f2;
+  background: #12203d;
 }
 
 .copyright-text a:hover {
@@ -1790,7 +1790,8 @@ div#preloader {
 }
 
 .copyright a {
-  color: #0c54ad;
+  /* color: #0c54ad; */
+  color: #1aa15f;
 }
 
 /*----------------------------------------*/

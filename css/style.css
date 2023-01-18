@@ -455,6 +455,10 @@ p.discovery-p-color {
 
 /* -------Team----- */
 
+.people-bnr-title {
+  color: #000;
+}
+
 .people-banner-wrapper {
   position: relative;
 }

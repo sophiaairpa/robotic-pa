@@ -13,6 +13,10 @@
   top: 50%;
 }
 
+.carousel-control.left {
+  background-image: none;
+}
+
 .slide-title {
   position: absolute;
   top: 30%;
@@ -517,4 +521,3 @@ p.discovery-p-color {
 }
 
 /* ------Contact------- */
-

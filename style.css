@@ -1115,6 +1115,13 @@ div#preloader {
   width: 100%;
 }
 
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-control.right {
+  background-image: none;
+}
+
 .awesome-img {
   display: block;
   width: 100%;

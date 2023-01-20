@@ -1115,6 +1115,11 @@ div#preloader {
   width: 100%;
 }
 
+video {
+  vertical-align: bottom;
+  position: relative;
+}
+
 .carousel-control.left {
   background-image: none;
 }

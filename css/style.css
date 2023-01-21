@@ -6,9 +6,7 @@
   src: url("../fonts/nasalization-rg.otf");
 }
 
-/* body {
-  font-family: RoboQuessFont, sans-serif !important;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600&display=swap");
 
 .footer-btm {
   text-align: center;
@@ -31,6 +29,25 @@
   position: relative;
 }
 
+.max-width-container {
+  max-width: 650px;
+  width: 100%;
+  margin-left: 100px;
+}
+
+@media (max-width: 767px) {
+  .max-width-container {
+    width: 50%;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 380px) {
+  .max-width-container {
+    width: 80%;
+  }
+}
+
 .video-overlay::after {
   position: absolute;
   content: "";
@@ -40,15 +57,28 @@
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background: linear-gradient(
+    164.34deg,
+    rgba(0, 202, 103, 0.85) -51.96%,
+    rgba(11, 36, 90, 0.85) 62.74%
+  );
+  opacity: 0.6;
 }
 
 .slide-title {
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 15%;
-  max-width: 500px;
+  transform: translateY(-50%);
+  max-width: 650px;
   width: 100%;
+}
+
+@media (max-width: 767px) {
+  .slide-title {
+    width: 80%;
+  }
 }
 
 .slide-content {
@@ -129,7 +159,7 @@
 .circle-wrapper {
   width: 180px;
   height: 180px;
-  border: 4px solid #374768;
+  border: 4px solid #1a6968;
   border-radius: 50%;
   margin: 0 auto;
   display: flex;
@@ -147,7 +177,7 @@
     rgba(11, 36, 90, 0.85) 62.74%
   );
   border-radius: 50%;
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 700;
   display: flex;
   justify-content: center;
@@ -235,7 +265,7 @@
 }
 
 .roadmap {
-  background-color: #fae6e5;
+  background-color: #d4f2e2;
   padding: 50px 0;
 }
 
@@ -267,6 +297,7 @@
 
 .roadmap-circle-content i {
   font-size: 15px;
+  color: #1e985c;
 }
 
 .roadmap-phase {
@@ -348,7 +379,7 @@ element.style {
   line-height: 1.3;
   font-weight: 300;
   margin: 36px 0;
-  color: #000;
+  color: #333;
 }
 
 .people {
@@ -366,7 +397,6 @@ element.style {
   position: relative;
   display: flex;
   flex-direction: column;
-  border-radius: 8px;
   -webkit-box-shadow: rgb(19 46 112 / 10%) 0 1rem 4rem 0;
   box-shadow: rgb(19 46 112 / 10%) 0 1rem 4rem 0;
   overflow: hidden;
@@ -444,6 +474,14 @@ element.style {
   top: 50%;
   transform: translateY(-50%);
   padding-right: 24px;
+  max-width: 750px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .discovery-banner-content {
+    width: 80%;
+  }
 }
 
 .discovery-banner-content h1,
@@ -458,8 +496,6 @@ element.style {
 }
 
 .discovery-banner-content p {
-  max-width: 500px;
-  width: 100%;
   font-size: 40px;
   line-height: 45px;
   margin-top: 35px;

@@ -48,7 +48,8 @@
 /*----------------------------------------*/
 /*  Google Fonts
 /*----------------------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500&display=swap");
 
 /*----------------------------------------*/
 /*  1.  Theme default CSS
@@ -107,10 +108,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Exo 2", sans-serif;
   margin: 0 0 15px;
   color: #2a354e;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h1 {
@@ -167,7 +168,7 @@ a:focus {
 body {
   background: #fff none repeat scroll 0 0;
   color: #757b82;
-  font-family: "Nunito", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 16px;
   text-align: left;
   overflow-x: hidden;
@@ -3382,6 +3383,8 @@ span.email-notes {
 
 .header-three .header-area-2 .main-menu ul.navbar-nav li a {
   color: #333;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 500;
 }
 
 .header-three .header-area-2 .main-menu ul.navbar-nav li a:hover {

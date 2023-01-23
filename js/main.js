@@ -277,3 +277,8 @@ preloader
     },
   });
 })(jQuery);
+
+const date = new Date();
+const currentYear = date.getFullYear();
+const year = document.getElementById("currentYear");
+year.innerHTML = currentYear;

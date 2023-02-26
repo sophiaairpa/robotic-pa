@@ -254,6 +254,11 @@
   margin: 0 20px;
 }
 
+.about-text p {
+  color: #000;
+  /* font-size: 17px; */
+}
+
 /* Discovery area start */
 
 .home-bread a {
